@@ -67,12 +67,11 @@ export default function App() {
       <div>
         {Object.keys(tags).map((tag) => {
           return (
-            <ProjectTileRow header={tag.charAt(0).toUpperCase() + tag.slice(1)} key={tag}>{
-              tags[tag].map((project) => (
+            <ProjectTileRow header={tag.charAt(0).toUpperCase() + tag.slice(1)} key={tag}>{tags[tag].map((project) => {
+              return (
                 <ProjectTile key={`${project.projectTitle}: Project Tile`} project={project} handleTileClick={handleTileClick} />
               )
-            }</ProjectTileRow>
-          )
+            })}</ProjectTileRow>)
         })}
         <div className="bottom-spacer"></div>
       </div>
