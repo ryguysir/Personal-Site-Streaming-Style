@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Fade from "react-reveal/Fade";
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Navigation, Pagination, Autoplay } from "swiper"
 
@@ -70,9 +69,8 @@ export default function App() {
           return (
             <ProjectTileRow header={tag.charAt(0).toUpperCase() + tag.slice(1)} key={tag}>{
               tags[tag].map((project) => (
-                <Fade key={`${project.projectTitle} fade ${tag}`}>
-                  <ProjectTile key={`${project.projectTitle}: Project Tile`} project={project} handleTileClick={handleTileClick} />
-                </Fade>))
+                <ProjectTile key={`${project.projectTitle}: Project Tile`} project={project} handleTileClick={handleTileClick} />
+              )
             }</ProjectTileRow>
           )
         })}

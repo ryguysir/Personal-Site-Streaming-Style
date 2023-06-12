@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Navigation, Pagination, Autoplay } from "swiper"
-import Slide from "react-reveal/Slide"
 
 import "./app.css";
 import 'swiper/css'
@@ -15,7 +14,7 @@ import ProjectVideo from "../Project Video/projectVideo"
 const ProjectDetails = ({ selectedProject, setShowDetails }) => {
 
   return (
-    <Slide right>
+    <div>
       <div className="project-detail-page">
         <div className="close-project-detail-page" onClick={() => { setShowDetails(false) }}><i className="fa-solid fa-xmark"></i></div>
         <div className="project-detail-text">
@@ -47,7 +46,7 @@ const ProjectDetails = ({ selectedProject, setShowDetails }) => {
           </Swiper>
         </div>
       </div>
-    </Slide>
+    </div>
   );
 };
 
