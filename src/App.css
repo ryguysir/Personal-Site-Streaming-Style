@@ -1,0 +1,55 @@
+body{
+  padding:0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+  background: rgb(20, 20, 30);
+}
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh;
+}
+
+.container{
+  width:85%;
+  position:relative;
+  margin:0 auto;
+}
+  
+.bottom-spacer{
+  height:25vh;
+  width:100%;
+}
+
+/* Global settings */
+.visible{
+  display:block;
+}
+.hidden {
+  display: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius:2px;
+}
+
+
+@media (max-width:850px){
+ .container{
+   width:100%;
+ } 
+}

@@ -1,0 +1,28 @@
+.project-tile-row{
+  display:flex;
+  align-items:center;
+  flex-direction:row;
+  padding: 5px 0px 20px 10px;
+  gap:20px;
+  width:calc(100% - 10px);
+  z-index:-1;
+  overflow:scroll;
+}
+.project-tile-row::after{
+  position:absolute;
+  left:100%;
+  transform:translateX(-100%);
+  content:"";
+  width:10vw;;
+  height:200px;
+  z-index:100;
+  background: linear-gradient(-90deg, rgba(20, 20, 30,.85) 0%, rgba(0,0,0,0) 100%);  
+  pointer-events: none;
+  
+}
+
+.project-tile-row-header{
+  font-size:150%;
+  padding-left: 10px;
+  color:white;
+}

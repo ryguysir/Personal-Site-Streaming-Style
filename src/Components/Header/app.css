@@ -1,0 +1,33 @@
+.header-container{
+  position:relative;
+  margin:0 auto;
+  width:85%;
+  height:10vh;
+  color:white;
+  letter-spacing: .1em;
+  display:flex;
+  align-items:center;
+}
+.header-container h2{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  pointer-events:none;
+}
+.hamburger{
+  transition:all .15s ease-in-out;
+  position:absolute;
+  font-size:150%;
+  margin-left:3%;
+  cursor:pointer;
+}
+.hamburger:active{
+  transition:all .15s ease-in-out;
+  transform:scale(1.2);
+  opacity:.5;
+}
+@media (max-width:850px){
+ .header-container{
+   width:100%;
+ } 
+}
