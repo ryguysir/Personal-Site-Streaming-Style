@@ -9,6 +9,7 @@ import ProjectTileRow from "./Components/Project Tile Row/projectTileRow"
 import ProjectHighlight from "./Components/Project Highlight/projectHighlight"
 import ProjectDetails from "./Components/Project Details/projectDetails"
 import SidePanel from "./Components/Side Panel/sidePanel"
+import ContactMe from "./Components/Contact Me/contactMe"
 
 
 //import functions
@@ -26,6 +27,7 @@ import 'swiper/css/autoplay'
 export default function App() {
 
   const [showDetails, setShowDetails] = useState(false);
+  const [showContactMe, setShowContactMe] = useState(false);
   const [selectedProject, setSelectedProject] = useState({
     projectTitle: "",
     projectText: "",
@@ -43,7 +45,8 @@ export default function App() {
 
   return (<div>
 
-    {showSidePanel && (<SidePanel setShowSidePanel={setShowSidePanel} />)}
+    {showSidePanel && (<SidePanel setShowSidePanel={setShowSidePanel} setShowContactMe={setShowContactMe} />)}
+    {showContactMe && (<ContactMe setShowContactMe={setShowContactMe} />)}
     {showDetails && (<ProjectDetails selectedProject={selectedProject} setShowDetails={setShowDetails} />)}
     <Header setShowSidePanel={setShowSidePanel} />
     <div className="container">

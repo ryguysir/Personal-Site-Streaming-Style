@@ -1,6 +1,6 @@
 import "./app.css"
 
-const SidePanel = ({ setShowSidePanel }) => {
+const SidePanel = ({ setShowSidePanel, setShowContactMe }) => {
   return (
     <div>
       <div className="side-panel">
@@ -8,7 +8,7 @@ const SidePanel = ({ setShowSidePanel }) => {
           setShowSidePanel(false);
         }}></i>
         <h3>Search</h3>
-        <h3>Contact Me</h3>
+        <h3 onClick={() => { setShowSidePanel(false);setShowContactMe(true) }}>Contact Me</h3>
       </div>
     </div>
   )

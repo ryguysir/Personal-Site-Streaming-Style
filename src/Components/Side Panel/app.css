@@ -1,13 +1,19 @@
 .side-panel{
+  animation:scaleUp .4s ease-in-out;
+  transform-origin:0px 0px;
   position:absolute;
   top:0;
   left:0;
-  height:100vh;
   background:rgb(30, 30, 40);
   color:white;
-  z-index:10000;
-  padding:4vw 6vw 0vw 4vw;
+  z-index:99;
+  padding:4vw 6vw 6vw 4vw;
+  border-radius:0px 0px 20px 0px;
   filter:drop-shadow(20px 0px 20px rgba(0,0,0,.5));
+}
+.side-panel h3{
+  user-select: none;
+  cursor:pointer;
 }
 .close-side-panel{
   transition:all .15s ease-in-out;
@@ -18,4 +24,13 @@
   transition:all .15s ease-in-out;
   transform:scale(1.5);
   opacity:.5;
+}
+
+@keyframes scaleUp{
+  0%{
+    transform:scale(0)
+  }
+  100%{
+    transform:scale(1)
+  }
 }
