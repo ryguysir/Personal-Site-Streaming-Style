@@ -1,0 +1,69 @@
+/* Contact Me _________________________*/
+#project-search-holder {
+  position: fixed;
+  width: 75vw;
+  left:50%;
+  top:50%;
+  transform: translateX(-50%) translateY(-50%);
+  scroll-snap-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-content: center;
+  color: white;
+  text-align: center;
+  z-index: 103;
+  border-radius: 4px; 
+  background: linear-gradient(180deg, #2c3e50, #202b36);
+}
+.close-project-search{
+  transition:all .15s ease-in-out;
+  position:absolute;
+  left:0;
+  top:0;
+  margin:2vw;
+  font-size:150%;
+  color:white;
+  cursor:pointer;		
+}
+.close-project-search:active{
+  transition:all .15s ease-in-out;
+  transform:scale(1.5);
+  opacity:.5;
+}
+
+.project-search-input{
+  font-size: 1em;
+  padding: 0.5em;
+  width:50vw;
+  margin-top: 8vw;
+  border: none;
+  background: #6e92b4;
+  color: white;
+  outline: none;
+  text-align:center;
+}
+.searched-list{
+  margin:2vh;
+  list-style:block;
+  width:50vw;
+  height:25vh;
+  overflow:scroll;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.searched-list-light, .searched-list-dark{
+  font-size:.85em;
+  width:95%;
+  margin:2px 0px 2px 0px;
+  padding:2px;
+  background:rgba(100,100,100,.3);
+  border-radius:3px;
+}
+
+.searched-list-light{
+  background:rgba(50,50,50,.5);
+}

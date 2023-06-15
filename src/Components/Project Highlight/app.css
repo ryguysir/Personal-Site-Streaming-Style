@@ -4,6 +4,7 @@
   height: 400px;
   margin-bottom: 0;
   color:white;
+  overflow:hidden;
 }
 
 .project-highlight-container::after{
@@ -43,6 +44,8 @@
   height:100%;
   width:100%;
   filter:blur(10px);
+  transform:scale(2);
+  transform-origin:center;
   z-index:1;
 }
 

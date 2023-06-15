@@ -10,7 +10,7 @@ function ProjectObject() {
 
 let amazonCxLabs = new ProjectObject();
 amazonCxLabs.projectTitle = "Amazon Alexa Series";
-amazonCxLabs.projectText = "Editor / Motion Graphics";
+amazonCxLabs.projectText = "Editor / Motion Graphics / Color";
 amazonCxLabs.imgSrc = "images/amazonCxLabs.jpg";
 amazonCxLabs.projectTags = [
   "corporate",
@@ -113,7 +113,7 @@ projects.push(dawnOfThePlanetOfTheApes);
 
 let dellTechnologiesWorld = new ProjectObject();
 dellTechnologiesWorld.projectTitle = "Dell Technologies World";
-dellTechnologiesWorld.projectText = "Editor / Motion Graphics";
+dellTechnologiesWorld.projectText = "Editor / Motion Graphics / Color";
 dellTechnologiesWorld.imgSrc = "images/dellTechnologiesWorld.jpg";
 dellTechnologiesWorld.projectTags = [
   "corporate",
@@ -186,7 +186,7 @@ projects.push(ifIStay);
 
 let indigoSlateDesignLedThinking = new ProjectObject();
 indigoSlateDesignLedThinking.projectTitle = "indigo slate Design Led Thinking";
-indigoSlateDesignLedThinking.projectText = "Editor / Motion Graphics";
+indigoSlateDesignLedThinking.projectText = "Editor / Motion Graphics / Color";
 indigoSlateDesignLedThinking.imgSrc = "images/indigoSlateDesignLedThinking.jpg";
 indigoSlateDesignLedThinking.projectTags = [
   "corporate",
@@ -200,7 +200,7 @@ projects.push(indigoSlateDesignLedThinking);
 
 let indigoSlateEverywhereExperiences = new ProjectObject();
 indigoSlateEverywhereExperiences.projectTitle = "indigo slate Everywhere Experiences";
-indigoSlateEverywhereExperiences.projectText = "Editor / Motion Graphics";
+indigoSlateEverywhereExperiences.projectText = "Editor / Motion Graphics / Color";
 indigoSlateEverywhereExperiences.imgSrc = "images/indigoSlateEverywhereExperiences.jpg";
 indigoSlateEverywhereExperiences.projectTags = [
   "corporate",
@@ -290,7 +290,7 @@ projects.push(logan);
 
 let microsoft365Deployment = new ProjectObject();
 microsoft365Deployment.projectTitle = "Microsoft 365 Deployment";
-microsoft365Deployment.projectText = "Editor / Motion Graphics";
+microsoft365Deployment.projectText = "Editor / Motion Graphics / Color";
 microsoft365Deployment.imgSrc = "images/microsoft365Deployment.jpg";
 microsoft365Deployment.projectTags = [
   "corporate",
@@ -303,7 +303,7 @@ projects.push(microsoft365Deployment);
 
 let microsoft365MobileProductivity = new ProjectObject();
 microsoft365MobileProductivity.projectTitle = "Microsoft M365 Mobile Productivity";
-microsoft365MobileProductivity.projectText = "Editor / Motion Graphics";
+microsoft365MobileProductivity.projectText = "Editor / Motion Graphics / Color";
 microsoft365MobileProductivity.imgSrc = "images/microsoft365MobileProductivity.jpg";
 microsoft365MobileProductivity.projectTags = [
   "drama",
@@ -320,7 +320,7 @@ projects.push(microsoft365MobileProductivity);
 
 let microsoft365PartnerVideos = new ProjectObject();
 microsoft365PartnerVideos.projectTitle = "Microsoft M365 Partner Videos";
-microsoft365PartnerVideos.projectText = "Editor / Motion Graphics";
+microsoft365PartnerVideos.projectText = "Editor / Motion Graphics / Color";
 microsoft365PartnerVideos.imgSrc = "images/microsoft365PartnerVideos.jpg";
 microsoft365PartnerVideos.projectTags = [
   "corporate",
@@ -346,7 +346,7 @@ projects.push(microsoftAIBDM);
 
 let microsoftAILoblaw = new ProjectObject();
 microsoftAILoblaw.projectTitle = "Microsoft AI Loblaw";
-microsoftAILoblaw.projectText = "Editor / Motion Graphics";
+microsoftAILoblaw.projectText = "Editor / Motion Graphics / Color";
 microsoftAILoblaw.imgSrc = "images/microsoftAI-Loblaw.jpg";
 microsoftAILoblaw.projectTags = [
   "microsoft",
@@ -360,7 +360,7 @@ projects.push(microsoftAILoblaw);
 
 let microsoftProjectHanover = new ProjectObject();
 microsoftProjectHanover.projectTitle = "Microsoft Project Hanover";
-microsoftProjectHanover.projectText = "Editor / Motion Graphics";
+microsoftProjectHanover.projectText = "Editor / Motion Graphics / Color";
 microsoftProjectHanover.imgSrc = "images/microsoftAIProjectHanover.jpg";
 microsoftProjectHanover.projectTags = [
   "microsoft",
@@ -374,7 +374,7 @@ projects.push(microsoftProjectHanover);
 
 let microsoftAzureAD20Years = new ProjectObject();
 microsoftAzureAD20Years.projectTitle = "Microsoft Azure AD 20 Years";
-microsoftAzureAD20Years.projectText = "Editor / Motion Graphics";
+microsoftAzureAD20Years.projectText = "Editor / Motion Graphics / Color";
 microsoftAzureAD20Years.imgSrc = "images/microsoftAzureAD20Years.jpg";
 microsoftAzureAD20Years.projectTags = [
   "corporate",
@@ -389,7 +389,7 @@ projects.push(microsoftAzureAD20Years);
 
 let microsoftBuildingBuild = new ProjectObject();
 microsoftBuildingBuild.projectTitle = "Building Build";
-microsoftBuildingBuild.projectText = "Editor / Motion Graphics";
+microsoftBuildingBuild.projectText = "Editor / Motion Graphics / Color";
 microsoftBuildingBuild.imgSrc = "images/microsoftBuildingBuild.jpg";
 microsoftBuildingBuild.projectTags = [
   "corporate",
@@ -418,7 +418,7 @@ projects.push(microsoftGOSHTeamUp);
 
 let microsoftSmartSpaces = new ProjectObject();
 microsoftSmartSpaces.projectTitle = "Microsoft Smart Spaces";
-microsoftSmartSpaces.projectText = "Editor / Motion Graphics";
+microsoftSmartSpaces.projectText = "Editor / Motion Graphics / Color";
 microsoftSmartSpaces.imgSrc = "images/microsoftSmartSpaces.jpg";
 microsoftSmartSpaces.projectTags = [
   "corporate",
@@ -431,7 +431,7 @@ projects.push(microsoftSmartSpaces);
 
 let xboxAdaptiveController = new ProjectObject();
 xboxAdaptiveController.projectTitle = "Xbox Adaptive Controller";
-xboxAdaptiveController.projectText = "Editor / Motion Graphics";
+xboxAdaptiveController.projectText = "Editor / Motion Graphics / Color";
 xboxAdaptiveController.imgSrc = "images/microsoftXboxAdaptiveController.jpg";
 xboxAdaptiveController.projectTags = [
   "corporate",
@@ -563,7 +563,7 @@ projects.push(ozarkS1);
 
 let paccarFutureSales = new ProjectObject();
 paccarFutureSales.projectTitle = "PACCAR Future Sales";
-paccarFutureSales.projectText = "Editor / Motion Graphics";
+paccarFutureSales.projectText = "Editor / Motion Graphics / Color";
 paccarFutureSales.imgSrc = "images/paccarFutureSales.jpg";
 paccarFutureSales.projectTags = [
   "corporate",
@@ -679,7 +679,7 @@ projects.push(runnerRunner);
 
 let sapConcurCustomerTrust = new ProjectObject();
 sapConcurCustomerTrust.projectTitle = "SAP Concur Customer Trust";
-sapConcurCustomerTrust.projectText = "Editor / Motion Graphics";
+sapConcurCustomerTrust.projectText = "Editor / Motion Graphics / Color";
 sapConcurCustomerTrust.imgSrc = "images/SAPConcurCustomerTrust.jpg";
 sapConcurCustomerTrust.projectTags = [
   "corporate",
@@ -706,7 +706,7 @@ projects.push(sapSizzle);
 
 let sevenBucksHoliday = new ProjectObject();
 sevenBucksHoliday.projectTitle = "Seven Bucks Holiday";
-sevenBucksHoliday.projectText = "Editor / Motion Graphics";
+sevenBucksHoliday.projectText = "Editor / Motion Graphics / Color";
 sevenBucksHoliday.imgSrc = "images/sevenBucksHoliday.jpg";
 sevenBucksHoliday.projectTags = [
   "corporate",
@@ -736,7 +736,7 @@ projects.push(shazam);
 
 let skypeMeetNow = new ProjectObject();
 skypeMeetNow.projectTitle = "Skype Meet Now";
-skypeMeetNow.projectText = "Editor / Motion Graphics";
+skypeMeetNow.projectText = "Editor / Motion Graphics / Color";
 skypeMeetNow.imgSrc = "images/skypeMeetNow.jpg";
 skypeMeetNow.projectTags = [
   "corporate",
@@ -750,7 +750,7 @@ projects.push(skypeMeetNow);
 
 let sonySpec = new ProjectObject();
 sonySpec.projectTitle = "Sony Spec Ad";
-sonySpec.projectText = "Editor / Motion Graphics";
+sonySpec.projectText = "Editor / Motion Graphics / Color";
 sonySpec.imgSrc = "images/sonySpec.jpg";
 sonySpec.projectTags = ["corporate", "Sony Spec Ad"];
 sonySpec.projectVideos = ["668848427"];
@@ -928,7 +928,7 @@ projects.push(theWolverine);
 
 let valveTheInternational = new ProjectObject();
 valveTheInternational.projectTitle = "Valve The International 2019";
-valveTheInternational.projectText = "Editor / Motion Graphics";
+valveTheInternational.projectText = "Editor / Motion Graphics / Color";
 valveTheInternational.imgSrc = "images/valveTheInternational.jpg";
 valveTheInternational.projectTags = [
   "corporate",
@@ -964,7 +964,7 @@ projects.push(xMenDaysOfFuturePast);
 
 let woodinvilleWhiskey = new ProjectObject();
 woodinvilleWhiskey.projectTitle = "Woodinville Whiskey Series";
-woodinvilleWhiskey.projectText = "Editor / Motion Graphics";
+woodinvilleWhiskey.projectText = "Editor / Motion Graphics / Color";
 woodinvilleWhiskey.imgSrc = "images/Woodinville Whiskey.jpg";
 woodinvilleWhiskey.projectTags = [
   "corporate",
@@ -1022,7 +1022,7 @@ projects.push(homeTeam);
 
 let krakenHolidayCommercial = new ProjectObject();
 krakenHolidayCommercial.projectTitle = "Kraken Holiday Commercial";
-krakenHolidayCommercial.projectText = "Editor";
+krakenHolidayCommercial.projectText = "Editor / Color";
 krakenHolidayCommercial.imgSrc = "images/Kraken Holiday Commercial.jpg";
 krakenHolidayCommercial.projectTags = [
   "corporate",
@@ -1057,7 +1057,7 @@ projects.push(theClausFamily2);
 
 let aForceForCampaign = new ProjectObject();
 aForceForCampaign.projectTitle = "F5 A Force For";
-aForceForCampaign.projectText = "Editor / Motion Graphics";
+aForceForCampaign.projectText = "Editor / Motion Graphics / Color";
 aForceForCampaign.imgSrc = "images/F5 A Force For.jpg";
 aForceForCampaign.projectTags = [
   "corporate",
@@ -1076,7 +1076,7 @@ projects.push(aForceForCampaign);
 
 let microsoftGameChangers = new ProjectObject();
 microsoftGameChangers.projectTitle = "Microsoft Game Changers";
-microsoftGameChangers.projectText = "Editor / Motion Graphics";
+microsoftGameChangers.projectText = "Editor / Motion Graphics / Color";
 microsoftGameChangers.imgSrc = "images/Microsoft Game Changers.jpg";
 microsoftGameChangers.projectTags = [
   "corporate",
@@ -1094,33 +1094,33 @@ projects.push(microsoftGameChangers);
 
 
 let tags = {
-    trailers: [], tv: [], corporate: [], action: [], adventure: [], drama: [], romance: [], horror: [], "sci-fi": [], comedy: [], historical: [], awards: [], favorites: [],
-  }
+  trailers: [], tv: [], corporate: [], action: [], adventure: [], drama: [], romance: [], horror: [], "sci-fi": [], comedy: [], historical: [], awards: [], favorites: [],
+}
 
-  /* Randomize array in-place using Durstenfeld shuffle algorithm */
-  function shuffleArray(array) {
-    for (var i = array.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var temp = array[i];
-      array[i] = array[j];
-      array[j] = temp;
+/* Randomize array in-place using Durstenfeld shuffle algorithm */
+function shuffleArray(array) {
+  for (var i = array.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+}
+
+//take the main projects array and break it up into seperate tag based arrays
+projects.map((project) => {
+  for (let i = 0; i <= project.projectTags.length; i++) {
+    if (tags.hasOwnProperty(project.projectTags[i])) {
+      tags[project.projectTags[i]].push(project)
     }
   }
 
-  //take the main projects array and break it up into seperate tag based arrays
-  projects.map((project) => {
-    for (let i = 0; i <= project.projectTags.length; i++) {
-      if (tags.hasOwnProperty(project.projectTags[i])) {
-        tags[project.projectTags[i]].push(project)
-      }
-    }
+})
 
-  })
-
-  //go through each of the tag catagories and shuffle them
-  Object.keys(tags).map((tag) => {
-    shuffleArray(tags[tag])
-  })
+//go through each of the tag catagories and shuffle them
+Object.keys(tags).map((tag) => {
+  shuffleArray(tags[tag])
+})
 
 
-export { tags };
+export { tags, projects };

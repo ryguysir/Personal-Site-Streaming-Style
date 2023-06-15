@@ -10,10 +10,11 @@ import ProjectHighlight from "./Components/Project Highlight/projectHighlight"
 import ProjectDetails from "./Components/Project Details/projectDetails"
 import SidePanel from "./Components/Side Panel/sidePanel"
 import ContactMe from "./Components/Contact Me/contactMe"
+import ProjectSearch from "./Components/Project Search/projectSearch"
 
 
 //import functions
-import { tags } from "./projectArray.js"
+import { tags, projects } from "./projectArray.js"
 
 //import CSS
 import './App.css'
@@ -25,9 +26,9 @@ import 'swiper/css/autoplay'
 
 
 export default function App() {
-
   const [showDetails, setShowDetails] = useState(false);
   const [showContactMe, setShowContactMe] = useState(false);
+  const [showProjectSearch, setShowProjectSearch] = useState(false);
   const [selectedProject, setSelectedProject] = useState({
     projectTitle: "",
     projectText: "",
@@ -45,7 +46,8 @@ export default function App() {
 
   return (<div>
 
-    {showSidePanel && (<SidePanel setShowSidePanel={setShowSidePanel} setShowContactMe={setShowContactMe} />)}
+    {showSidePanel && (<SidePanel setShowSidePanel={setShowSidePanel} setShowContactMe={setShowContactMe} setShowProjectSearch={setShowProjectSearch} />)}
+    {showProjectSearch && (<ProjectSearch projects={projects} setShowProjectSearch={setShowProjectSearch} setShowDetails={setShowDetails} setSelectedProject={setSelectedProject}/>)}
     {showContactMe && (<ContactMe setShowContactMe={setShowContactMe} />)}
     {showDetails && (<ProjectDetails selectedProject={selectedProject} setShowDetails={setShowDetails} />)}
     <Header setShowSidePanel={setShowSidePanel} />

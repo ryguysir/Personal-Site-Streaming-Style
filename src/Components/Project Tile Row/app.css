@@ -15,7 +15,7 @@
   content:"";
   width:10vw;;
   height:200px;
-  z-index:100;
+  z-index:99;
   background: linear-gradient(-90deg, rgba(20, 20, 30,.85) 0%, rgba(0,0,0,0) 100%);  
   pointer-events: none;
   
