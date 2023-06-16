@@ -1094,7 +1094,7 @@ projects.push(microsoftGameChangers);
 
 
 let tags = {
-  trailers: [], tv: [], corporate: [], action: [], adventure: [], drama: [], romance: [], horror: [], "sci-fi": [], comedy: [], historical: [], awards: [], favorites: [],
+  trailers: [], corporate: [], tv: [], action: [], adventure: [], drama: [], romance: [], horror: [], "sci-fi": [], comedy: [], historical: [], awards: [], favorites: [],
 }
 
 /* Randomize array in-place using Durstenfeld shuffle algorithm */
