@@ -12,11 +12,17 @@
   cursor: pointer;
   user-select: none;
 }
-.project-card:active{
+.project-card:active .project-card-img{
+  transition:all .15s ease-in-out;
+  opacity:1;
+  filter: contrast(1) brightness(1) grayscale(0%);
+}
+.project-card:active .project-card-text{
   transition:all .15s ease-in-out;
   opacity:.5;
 }
 .project-card-img {
+  transition:all .15s ease-in-out;
   position: absolute;
   left: 0;
   object-fit: cover;
@@ -25,6 +31,7 @@
   filter: contrast(0.75) brightness(.75) grayscale(25%);
 }
 .project-card-text {
+  transition:all .15s ease-in-out;
   position: absolute;
   width: 85%;
   bottom:0;
