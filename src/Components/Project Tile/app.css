@@ -15,7 +15,6 @@
 .project-card:active{
   transition:all .15s ease-in-out;
   opacity:.5;
-  border:white 2px solid;
 }
 .project-card-img {
   position: absolute;
