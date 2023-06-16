@@ -1,5 +1,4 @@
 .side-panel{
-  animation:scaleUp .4s ease-in-out;
   transform-origin:0px 0px;
   position:absolute;
   top:0;
@@ -26,11 +25,8 @@
   opacity:.5;
 }
 
-@keyframes scaleUp{
-  0%{
-    transform:scale(0)
-  }
-  100%{
-    transform:scale(1)
-  }
+.test{
+  width:200px;
+  height:200px;
+  background:red;
 }

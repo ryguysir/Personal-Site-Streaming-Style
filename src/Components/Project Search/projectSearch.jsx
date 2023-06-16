@@ -1,7 +1,8 @@
 import React, { useState, memo } from "react";
+import {useTransition, animated} from "react-spring"
 import "./app.css";
 
-const ProjectSearch = memo(function ProjectSearch({ projects, setShowProjectSearch, setShowDetails, setSelectedProject }) {
+const ProjectSearch = memo(function ProjectSearch({ projects, showProjectSearch,setShowProjectSearch, setShowDetails, setSelectedProject }) {
   let [searchedProjects, setSearchedProjects] = useState([])
   const search = () => {
     let query = document.getElementsByClassName("project-search-input")[0].value;
@@ -22,14 +23,20 @@ const ProjectSearch = memo(function ProjectSearch({ projects, setShowProjectSear
     setShowDetails(true);
 
   }
-  return (
-    <div>
-      <div id="project-search-holder">
+
+  const projectSearchTransition = useTransition(showProjectSearch,{
+     from:{opacity:0},
+    enter:{opacity:1},
+    leave:{opacity:0}
+  })
+
+  return (<div>
+    {projectSearchTransition((style,item)=>item?
+      <animated.div style={style} id="project-search-holder">
         <i className="fa-solid fa-xmark close-contact-me" onClick={() => { setShowProjectSearch(false) }}></i>
         <input type="text" placeholder="project name" className="project-search-input" onChange={() => { search() }}></input>
         <div className="searched-list">
           {searchedProjects.map((project, index) => {
-            console.log(index);
             if (index % 2 == 0) {
               return (<h2 onClick={() => { handleClick(project) }} className="searched-list-light" key={project.projectTitle}>{project.projectTitle}</h2>)
             } else {
@@ -37,9 +44,19 @@ const ProjectSearch = memo(function ProjectSearch({ projects, setShowProjectSear
             }
           })}
         </div>
-      </div>
-    </div>
-  );
+      </animated.div>
+    :"")}
+  </div>)
 });
 
 export default ProjectSearch;
+
+
+  // const sidePanelTransition = useTransition(showSidePanel,{
+  //   from:{x:-300},
+  //   enter:{x:0},
+  //   leave:{x:-300}
+  // })
+  // return (<div>
+  //   {projectSearchTransition((style,item)=>item?  :"")}
+  // </div>)

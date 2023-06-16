@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Navigation, Pagination, Autoplay } from "swiper"
+import { useTransition, animated } from "react-spring"
 
 import "./app.css";
 import 'swiper/css'
@@ -11,11 +12,17 @@ import 'swiper/css/autoplay'
 
 import ProjectVideo from "../Project Video/projectVideo"
 
-const ProjectDetails = ({ selectedProject, setShowDetails }) => {
+const ProjectDetails = ({ selectedProject, showDetails, setShowDetails }) => {
+
+  const projectDetailsTransition = useTransition(showDetails, {
+    from: { x: "-100%" },
+    enter: { x: "0%" },
+    leave: { x: "-100%" }
+  })
 
   return (
     <div>
-      <div className="project-detail-page">
+      {projectDetailsTransition((style, item) => item ? <animated.div style={style} className="project-detail-page">
         <div className="close-project-detail-page" onClick={() => { setShowDetails(false) }}><i className="fa-solid fa-xmark"></i></div>
         <div className="project-detail-text">
 
@@ -45,7 +52,8 @@ const ProjectDetails = ({ selectedProject, setShowDetails }) => {
             })}
           </Swiper>
         </div>
-      </div>
+      </animated.div> : "")}
+
     </div>
   );
 };

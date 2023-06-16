@@ -8,7 +8,9 @@ import ProjectTile from "./Components/Project Tile/projectTile"
 import ProjectTileRow from "./Components/Project Tile Row/projectTileRow"
 import ProjectHighlight from "./Components/Project Highlight/projectHighlight"
 import ProjectDetails from "./Components/Project Details/projectDetails"
+
 import SidePanel from "./Components/Side Panel/sidePanel"
+
 import ContactMe from "./Components/Contact Me/contactMe"
 import ProjectSearch from "./Components/Project Search/projectSearch"
 
@@ -28,6 +30,7 @@ import 'swiper/css/autoplay'
 export default function App() {
   const [showDetails, setShowDetails] = useState(false);
   const [showContactMe, setShowContactMe] = useState(false);
+  const [showSidePanel, setShowSidePanel] = useState(false);
   const [showProjectSearch, setShowProjectSearch] = useState(false);
   const [selectedProject, setSelectedProject] = useState({
     projectTitle: "",
@@ -37,7 +40,8 @@ export default function App() {
     projectVideos: [],
     award: [],
   });
-  const [showSidePanel, setShowSidePanel] = useState(false);
+  
+
 
   function handleTileClick(proj) {
     setShowDetails(true);
@@ -46,10 +50,14 @@ export default function App() {
 
   return (<div>
 
-    {showSidePanel && (<SidePanel setShowSidePanel={setShowSidePanel} setShowContactMe={setShowContactMe} setShowProjectSearch={setShowProjectSearch} />)}
-    {showProjectSearch && (<ProjectSearch projects={projects} setShowProjectSearch={setShowProjectSearch} setShowDetails={setShowDetails} setSelectedProject={setSelectedProject}/>)}
-    {showContactMe && (<ContactMe setShowContactMe={setShowContactMe} />)}
-    {showDetails && (<ProjectDetails selectedProject={selectedProject} setShowDetails={setShowDetails} />)}
+    <SidePanel showSidePanel={showSidePanel} setShowSidePanel={setShowSidePanel} setShowContactMe={setShowContactMe} setShowProjectSearch={setShowProjectSearch} />
+    
+    <ProjectSearch projects={projects} showProjectSearch={showProjectSearch} setShowProjectSearch={setShowProjectSearch} setShowDetails={setShowDetails} setSelectedProject={setSelectedProject} />
+
+    <ContactMe showContactMe={showContactMe} setShowContactMe={setShowContactMe} />
+    
+    <ProjectDetails showDetails={showDetails} selectedProject={selectedProject} setShowDetails={setShowDetails} />
+    
     <Header setShowSidePanel={setShowSidePanel} />
     <div className="container">
       <Swiper

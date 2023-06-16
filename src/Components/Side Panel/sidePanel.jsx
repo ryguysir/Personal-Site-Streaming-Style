@@ -1,17 +1,23 @@
 import "./app.css"
+import { useTransition, animated } from "react-spring";
 
-const SidePanel = ({ setShowSidePanel, setShowContactMe, setShowProjectSearch }) => {
-  return (
-    <div>
-      <div className="side-panel">
+const SidePanel = ({ showSidePanel, setShowSidePanel, setShowContactMe, setShowProjectSearch }) => {
+
+  const sidePanelTransition = useTransition(showSidePanel,{
+    from:{x:-300},
+    enter:{x:0},
+    leave:{x:-300}
+  })
+  return (<div>
+    {sidePanelTransition((style,item)=>item?
+      <animated.div style={style} className="side-panel">
         <i className="fa-solid fa-xmark close-side-panel" onClick={() => {
-          setShowSidePanel(false);
-        }}></i>
+            setShowSidePanel(false);
+          }}></i>
         <h3 onClick={() => { setShowSidePanel(false); setShowProjectSearch(true) }}>Search</h3>
         <h3 onClick={() => { setShowSidePanel(false); setShowContactMe(true) }}>Contact Me</h3>
-      </div>
-    </div>
-  )
+      </animated.div>:"")}
+  </div>)
 }
 
 export default SidePanel
