@@ -14,6 +14,12 @@ import ProjectVideo from "../Project Video/projectVideo"
 
 const ProjectDetails = ({ selectedProject, showDetails, setShowDetails }) => {
 
+  if (showDetails) {
+    document.body.classList.add("stop-scrolling")
+  } else {
+    document.body.classList.remove("stop-scrolling")
+  }
+
   const projectDetailsTransition = useTransition(showDetails, {
     from: { x: "-100%" },
     enter: { x: "0%" },

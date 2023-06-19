@@ -9,14 +9,16 @@
   color:white;
 }
 .close-project-detail-page{
-  transition:transform .1s ease-in-out;
+  transition:all .15s ease-in-out;
   position:absolute;
   margin:20px;
   font-size:150%;
   z-index:102;
+  user-select:none;
 }
 .close-project-detail-page:active{
-  transform:scale(1.5);
+  transition:all .15s ease-in-out;
+  opacity:.5;
 }
 .project-detail-text{
   position:absolute;

@@ -8,11 +8,11 @@ import ProjectTile from "./Components/Project Tile/projectTile"
 import ProjectTileRow from "./Components/Project Tile Row/projectTileRow"
 import ProjectHighlight from "./Components/Project Highlight/projectHighlight"
 import ProjectDetails from "./Components/Project Details/projectDetails"
-
 import SidePanel from "./Components/Side Panel/sidePanel"
-
 import ContactMe from "./Components/Contact Me/contactMe"
 import ProjectSearch from "./Components/Project Search/projectSearch"
+
+
 
 
 //import functions
@@ -40,7 +40,7 @@ export default function App() {
     projectVideos: [],
     award: [],
   });
-  
+
 
 
   function handleTileClick(proj) {
@@ -51,13 +51,13 @@ export default function App() {
   return (<div>
 
     <SidePanel showSidePanel={showSidePanel} setShowSidePanel={setShowSidePanel} setShowContactMe={setShowContactMe} setShowProjectSearch={setShowProjectSearch} />
-    
+
     <ProjectSearch projects={projects} showProjectSearch={showProjectSearch} setShowProjectSearch={setShowProjectSearch} setShowDetails={setShowDetails} setSelectedProject={setSelectedProject} />
 
     <ContactMe showContactMe={showContactMe} setShowContactMe={setShowContactMe} />
-    
+
     <ProjectDetails showDetails={showDetails} selectedProject={selectedProject} setShowDetails={setShowDetails} />
-    
+
     <Header setShowSidePanel={setShowSidePanel} />
     <div className="container">
       <Swiper
