@@ -45,7 +45,7 @@ const ProjectDetails = ({ selectedProject, showDetails, setShowDetails }) => {
             }}
             modules={[Navigation, Pagination, Autoplay]}
             slidesPerView={1}
-            autoplay={true}
+            autoplay={false}
             navigation
             pagination={{ clickable: true }}>
 
