@@ -62,8 +62,10 @@
   padding:2px;
   background:rgba(100,100,100,.3);
   border-radius:3px;
+  cursor:pointer;
 }
 
 .searched-list-light{
   background:rgba(50,50,50,.5);
+  cursor:pointer;
 }

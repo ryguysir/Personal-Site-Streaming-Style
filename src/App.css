@@ -38,6 +38,7 @@ main {
 ::-webkit-scrollbar {
   width: 0px;
   height: 7px;
+  cursor:pointer;
 }
 
 /* Track */
@@ -47,7 +48,7 @@ main {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgba(136,136,136,.65);
   border-radius:2px;
 }
 

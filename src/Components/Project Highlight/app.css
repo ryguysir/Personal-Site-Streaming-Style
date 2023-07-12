@@ -5,6 +5,7 @@
   margin-bottom: 0;
   color:white;
   overflow:hidden;
+  cursor:pointer;
 }
 
 .project-highlight-container::after{
@@ -38,6 +39,7 @@
   height:100%;
   left:50%;
   transform:translateX(-50%) scale(1.2);
+  
 }
 
 .project-highlight-image-blur{
