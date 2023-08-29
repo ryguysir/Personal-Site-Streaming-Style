@@ -219,7 +219,6 @@ imagineCup21.imgSrc = "images/ImagineCup21.jpg";
 imagineCup21.projectTags = [
 	"corporate",
 	"imagine cup 2021",
-	"favorites",
 ];
 imagineCup21.projectVideos = ["569683335"];
 projects.push(imagineCup21);
@@ -279,7 +278,6 @@ logan.projectTags = [
 	"action",
 	"Logan",
 	"tv",
-	"favorites",
 	"awards",
 ];
 logan.projectVideos = ["208255115", "208255125", "209509332", "209509303"];
@@ -380,7 +378,6 @@ microsoftAzureAD20Years.projectTags = [
 	"corporate",
 	"historical",
 	"Microsoft Azure AD 20 Years",
-	"favorites",
 ];
 microsoftAzureAD20Years.projectVideos = ["518814623"];
 projects.push(microsoftAzureAD20Years);
@@ -741,7 +738,6 @@ skypeMeetNow.imgSrc = "images/skypeMeetNow.jpg";
 skypeMeetNow.projectTags = [
 	"corporate",
 	"Skype Meet Now",
-	"favorites",
 ];
 skypeMeetNow.projectVideos = ["475257653"];
 projects.push(skypeMeetNow);
@@ -901,7 +897,6 @@ theSecretLifeofWalterMitty.projectTags = [
 	"The Secret Life of Walter Mitty",
 	"tv",
 	"awards",
-	"favorites",
 ];
 theSecretLifeofWalterMitty.projectVideos = ["208428637", "208428618"];
 theSecretLifeofWalterMitty.award = ["clio"];
@@ -1091,6 +1086,23 @@ microsoftGameChangers.projectVideos = [
 microsoftGameChangers.award = [];
 projects.push(microsoftGameChangers);
 
+//___________________________________________________________________________________
+
+let alexaShopping = new ProjectObject();
+alexaShopping.projectTitle = "Amazon Alexa Shopping Design";
+alexaShopping.projectText = "Editor / Color";
+alexaShopping.imgSrc = "images/amazonAlexaDesignShopping.jpg";
+alexaShopping.projectTags = [
+	"corporate",
+	"online",
+	"Amazon Alexa Shopping Design",
+];
+alexaShopping.projectVideos = [
+	"838420916",
+];
+alexaShopping.award = [];
+projects.push(alexaShopping);
+
 
 //___________________________________________________________________________________
 
@@ -1099,7 +1111,7 @@ bumbershoot23.projectTitle = "Bumbershoot 2023";
 bumbershoot23.projectText = "Editor / Motion Graphics";
 bumbershoot23.imgSrc = "images/bumbershoot23.jpg";
 bumbershoot23.projectTags = [
-	"corporate",
+	"music",
 	"tv",
 	"Bumbershoot",
 	"favorites",

@@ -37,7 +37,7 @@ main {
 /* width */
 ::-webkit-scrollbar {
   width: 0px;
-  height: 7px;
+  height: 14px;
   cursor:pointer;
 }
 
@@ -48,8 +48,12 @@ main {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(136,136,136,.65);
-  border-radius:2px;
+  background: rgba(136,136,136,.25);
+  border-radius:20px;
+}
+::-webkit-scrollbar-track-piece{
+  background: rgba(136,136,136,.05);
+	border-radius:20px;
 }
 
 

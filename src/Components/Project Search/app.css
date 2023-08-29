@@ -8,7 +8,7 @@
   scroll-snap-align: center;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-rows: 1fr 2fr;
   justify-items: center;
   align-content: center;
   color: white;
@@ -47,6 +47,7 @@
 .searched-list{
   margin:2vh;
   list-style:block;
+	padding:2em 0em 2em 0em;
   width:50vw;
   height:25vh;
   overflow:scroll;
