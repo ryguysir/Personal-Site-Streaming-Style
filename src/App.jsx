@@ -5,6 +5,7 @@ import { Navigation, Pagination, Autoplay } from "swiper"
 //import components
 import Header from "./Components/Header/header"
 import ProjectTile from "./Components/Project Tile/projectTile"
+import ProjectTileHeader from "./Components/Project Tile Header/projectTileHeader"
 import ProjectTileRow from "./Components/Project Tile Row/projectTileRow"
 import ProjectHighlight from "./Components/Project Highlight/projectHighlight"
 import ProjectDetails from "./Components/Project Details/projectDetails"
@@ -80,11 +81,13 @@ export default function App() {
       <div>
         {Object.keys(tags).map((tag) => {
           return (
-            <ProjectTileRow header={tag.charAt(0).toUpperCase() + tag.slice(1)} key={tag}>{tags[tag].map((project) => {
-              return (
-                <ProjectTile key={`${project.projectTitle}: Project Tile`} project={project} handleTileClick={handleTileClick} />
-              )
-            })}</ProjectTileRow>)
+            <ProjectTileRow key={tag}>
+              <ProjectTileHeader header={tag.charAt(0).toUpperCase() + tag.slice(1)} key={tag} />
+              {tags[tag].map((project) => {
+                return (
+                  <ProjectTile key={`${project.projectTitle}: Project Tile`} project={project} handleTileClick={handleTileClick} />
+                )
+              })}</ProjectTileRow>)
         })}
         <div className="bottom-spacer"></div>
       </div>

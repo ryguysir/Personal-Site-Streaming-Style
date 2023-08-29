@@ -29,6 +29,8 @@
   color:white;
 }
 
+
+
 @media (max-width:500px){
   .project-tile-row::after{
     height:210px;

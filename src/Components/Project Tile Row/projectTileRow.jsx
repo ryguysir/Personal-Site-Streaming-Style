@@ -5,6 +5,7 @@ import "./app.css"
 
 const ProjectTileRow = memo(function ProjectTileRow({ header, children }) {
 
+  console.log(this)
   return (
     <div>
       <div className="project-tile-row-header">{header}</div>

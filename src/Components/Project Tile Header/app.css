@@ -1,0 +1,28 @@
+.project-card-header {
+  position: relative;
+  min-width: 300px;
+  height: 300px;
+  border-radius: 7px;
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+  text-align:center;
+  color:white;
+  font-size:150%;
+  font-weight:600;
+  letter-spacing:.1em;
+  
+  cursor: pointer;
+  user-select: none;
+}
+
+
+
+@media (max-width:500px){
+  .project-card-header{
+    min-width:240px;
+    height:210px;
+  }
+}
