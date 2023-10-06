@@ -1117,8 +1117,9 @@ bumbershoot23.projectTags = [
 	"favorites",
 ];
 bumbershoot23.projectVideos = [
+	"871934514",
 	"859059745",
-	"859061840",
+	"859061840"
 ];
 bumbershoot23.award = [];
 projects.push(bumbershoot23);
