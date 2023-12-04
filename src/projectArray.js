@@ -148,7 +148,6 @@ extinction.projectTags = [
 	"sci-fi",
 	"extinction",
 	"trailers",
-	"favorites",
 ];
 extinction.projectVideos = ["279750518"];
 projects.push(extinction);
@@ -391,7 +390,6 @@ microsoftBuildingBuild.imgSrc = "images/microsoftBuildingBuild.jpg";
 microsoftBuildingBuild.projectTags = [
 	"corporate",
 	"Building Build",
-	"favorites",
 	"awards",
 ];
 microsoftBuildingBuild.projectVideos = ["521752909"];
@@ -651,7 +649,6 @@ rampage.projectTags = [
 	"rampage",
 	"tv",
 	"awards",
-	"favorites",
 ];
 rampage.projectVideos = ["272281886", "272282009", "272281838"];
 rampage.award = ["clio"];
