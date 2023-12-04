@@ -1158,7 +1158,7 @@ signalAnthem.award = [];
 projects.push(signalAnthem);
 
 let tags = {
-	trailers: [], corporate: [], tv: [], action: [], adventure: [], drama: [], romance: [], horror: [], "sci-fi": [], comedy: [], historical: [], awards: [], favorites: [],
+	awards: [], favorites: [], trailers: [], corporate: [], tv: [], action: [], adventure: [], drama: [], romance: [], horror: [], "sci-fi": [], comedy: [], historical: [],
 }
 
 /* Randomize array in-place using Durstenfeld shuffle algorithm */
