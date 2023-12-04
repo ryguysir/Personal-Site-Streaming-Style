@@ -1125,6 +1125,40 @@ bumbershoot23.award = [];
 projects.push(bumbershoot23);
 
 
+//___________________________________________________________________________________
+
+let github24Announce = new ProjectObject();
+github24Announce.projectTitle = "Github 2024 Announcement";
+github24Announce.projectText = "Editor / Motion Graphics";
+github24Announce.imgSrc = "images/Github_Announce.jpg";
+github24Announce.projectTags = [
+	"corporate",
+	"Github",
+	"favorites",
+];
+github24Announce.projectVideos = [
+	"890902462",
+];
+github24Announce.award = [];
+projects.push(github24Announce);
+
+
+//___________________________________________________________________________________
+
+let signalAnthem = new ProjectObject();
+signalAnthem.projectTitle = "Signal Anthem";
+signalAnthem.projectText = "Editor / Motion Graphics";
+signalAnthem.imgSrc = "images/Signal_Anthem.jpg";
+signalAnthem.projectTags = [
+	"corporate",
+	"Signal",
+	"favorites",
+];
+signalAnthem.projectVideos = [
+	"890901848",
+];
+signalAnthem.award = [];
+projects.push(signalAnthem);
 
 let tags = {
 	trailers: [], corporate: [], tv: [], action: [], adventure: [], drama: [], romance: [], horror: [], "sci-fi": [], comedy: [], historical: [], awards: [], favorites: [],
