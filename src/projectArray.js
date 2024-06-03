@@ -1209,7 +1209,7 @@ projects.push(officialXboxPodcast);
 //___________________________________________________________________________________
 
 let pokemonTCGLive = new ProjectObject();
-pokemonTCGLive.projectTitle = "Pokémon TCG Live_Season 6 Trailer";
+pokemonTCGLive.projectTitle = "Pokémon TCG Live: Season 6 Trailer";
 pokemonTCGLive.projectText = "Editor";
 pokemonTCGLive.imgSrc = "images/pokemonTCGLive.jpg";
 pokemonTCGLive.projectTags = [
