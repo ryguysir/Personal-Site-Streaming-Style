@@ -505,7 +505,6 @@ narcosS2.projectTags = [
 	"trailers",
 	"tv",
 	"awards",
-	"favorites",
 ];
 narcosS2.projectVideos = ["208770645", "208770547", "208770473"];
 narcosS2.award = ["golden"];
@@ -721,7 +720,6 @@ shazam.projectTags = [
 	"adventure",
 	"shazam!",
 	"trailers",
-	"favorites",
 ];
 shazam.projectVideos = ["281502145"];
 projects.push(shazam);
@@ -962,7 +960,6 @@ woodinvilleWhiskey.projectTags = [
 	"corporate",
 	"Woodinville Whiskey",
 	"awards",
-	"favorites",
 ];
 woodinvilleWhiskey.projectVideos = [
 	"834208612",
@@ -1074,7 +1071,6 @@ microsoftGameChangers.projectTags = [
 	"corporate",
 	"tv",
 	"Microsoft Game Changers",
-	"favorites",
 ];
 microsoftGameChangers.projectVideos = [
 	"834210474",
@@ -1149,7 +1145,6 @@ signalAnthem.imgSrc = "images/Signal_Anthem.jpg";
 signalAnthem.projectTags = [
 	"corporate",
 	"Signal",
-	"favorites",
 ];
 signalAnthem.projectVideos = [
 	"890901848",
@@ -1157,9 +1152,64 @@ signalAnthem.projectVideos = [
 signalAnthem.award = [];
 projects.push(signalAnthem);
 
+
+//___________________________________________________________________________________
+
+let sunoLaunchSpot = new ProjectObject();
+sunoLaunchSpot.projectTitle = "Suno.ai Launch Spot";
+sunoLaunchSpot.projectText = "Editor / Motion Graphics";
+sunoLaunchSpot.imgSrc = "images/sunoLaunchSpot.jpg";
+sunoLaunchSpot.projectTags = [
+	"corporate",
+	"Suno",
+	"favorites",
+];
+sunoLaunchSpot.projectVideos = [
+	"953019792",
+];
+sunoLaunchSpot.award = [];
+projects.push(sunoLaunchSpot);
+
+//___________________________________________________________________________________
+
+let microsoftYesWay = new ProjectObject();
+microsoftYesWay.projectTitle = "Microsoft Yes Way";
+microsoftYesWay.projectText = "Editor / Motion Graphics";
+microsoftYesWay.imgSrc = "images/microsoftYesWay.jpg";
+microsoftYesWay.projectTags = [
+	"corporate",
+	"Microsoft",
+	"favorites",
+];
+microsoftYesWay.projectVideos = [
+	"953016867",
+];
+microsoftYesWay.award = [];
+projects.push(microsoftYesWay);
+
+//___________________________________________________________________________________
+
+let officialXboxPodcast = new ProjectObject();
+officialXboxPodcast.projectTitle = "Updates on the Xbox Business | Official Xbox Podcast";
+officialXboxPodcast.projectText = "Editor";
+officialXboxPodcast.imgSrc = "images/officialXboxPodcast.jpg";
+officialXboxPodcast.projectTags = [
+	"corporate",
+	"Xbox",
+	"favorites",
+];
+officialXboxPodcast.projectVideos = [
+	"953022941",
+];
+officialXboxPodcast.award = [];
+projects.push(officialXboxPodcast);
+
+
+
 let tags = {
 	awards: [], favorites: [], trailers: [], corporate: [], tv: [], action: [], adventure: [], drama: [], romance: [], horror: [], "sci-fi": [], comedy: [], historical: [],
 }
+
 
 /* Randomize array in-place using Durstenfeld shuffle algorithm */
 function shuffleArray(array) {

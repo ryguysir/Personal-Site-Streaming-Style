@@ -62,19 +62,22 @@
   color:white;
   animation: slideArrow 2s ease-in-out infinite;
   font-size:3em;
-  z-index:10000;
+  z-index:100;
   user-select:none;
-  padding-top:220px;
-  padding-left:10vw;
+  padding-top:125px;
+  padding-left:20vw;
 }
 
 @keyframes slideArrow{
   0%{
     transform:translate(0vw,0px);
+    opacity:0;
+  }
+  50%{
     opacity:.5;
   }
   100%{
-    transform:translate(60vw,0px);
+    transform:translate(50vw,0px);
     opacity:0;
   }
 }
@@ -94,5 +97,10 @@
 		height:210px;
 	}
 
+  .project-tile-arrow{
+    font-size:2em;
+    padding-top:90px;
+    padding-left:20vw;
+  }
 }
 
