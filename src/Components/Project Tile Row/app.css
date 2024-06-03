@@ -1,13 +1,19 @@
 :root {
   --coverOpacity: 1;
 	--coverLeftAdjust: 0px;
+  --arrowHidden: none;
+  --arrowVisible: block;
 }
 .project-tile-row{
   padding: 5px 0px 5px 10px;
   width:calc(100% - 10px);
   z-index:-1;
-  overflow:scroll;
+  overflow-x:hidden;
 }
+.project-tile-row:hover{
+  overflow-x: auto;
+}
+
 .project-tile-row::after{
   content:"";
   position:absolute;
@@ -21,7 +27,6 @@
 }
 
 .project-tile-row-cover{
-	transition:opacity .25s ease-in-out;
 	display:flex;
   align-items:center;
   flex-direction:row;
@@ -30,7 +35,7 @@
   z-index:2000;
 }
 .project-tile-row-cover::after{
-	transition: opacity .25s ease-in-out;
+	transition: opacity 1s ease-in-out;
 	position:absolute;
 	content:"";
 	left:310px;
@@ -52,9 +57,36 @@
 }
 
 
+.project-tile-arrow{
+  position:absolute;
+  color:white;
+  animation: slideArrow 2s ease-in-out infinite;
+  font-size:3em;
+  z-index:10000;
+  user-select:none;
+  padding-top:220px;
+  padding-left:10vw;
+}
+
+@keyframes slideArrow{
+  0%{
+    transform:translate(0vw,0px);
+    opacity:.5;
+  }
+  100%{
+    transform:translate(60vw,0px);
+    opacity:0;
+  }
+}
+
+
+
 
 @media (max-width:500px){
   .project-tile-row::after{
+    height:210px;
+  }
+  .project-tile-arrow-container{
     height:210px;
   }
 	.project-tile-row-cover::after{

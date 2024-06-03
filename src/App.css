@@ -4,6 +4,7 @@ body{
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
   background: rgb(20, 20, 30);
+  overflow:scroll;
 }
 main {
   text-align: center;
@@ -34,26 +35,26 @@ main {
   display: none;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 0px;
-  height: 14px;
-  cursor:pointer;
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #616161;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: transparent;
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgba(136,136,136,.25);
-  border-radius:20px;
+*::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0);
 }
-::-webkit-scrollbar-track-piece{
-  background: rgba(136,136,136,.05);
-	border-radius:20px;
+
+*::-webkit-scrollbar-thumb {
+  background-color: #616161;
+  border-radius: 10px;
 }
 
 
