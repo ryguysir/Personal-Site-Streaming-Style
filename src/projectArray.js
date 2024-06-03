@@ -1195,6 +1195,7 @@ officialXboxPodcast.projectText = "Editor";
 officialXboxPodcast.imgSrc = "images/officialXboxPodcast.jpg";
 officialXboxPodcast.projectTags = [
 	"corporate",
+	"gaming",
 	"Xbox",
 	"favorites",
 ];
@@ -1204,6 +1205,23 @@ officialXboxPodcast.projectVideos = [
 officialXboxPodcast.award = [];
 projects.push(officialXboxPodcast);
 
+
+//___________________________________________________________________________________
+
+let pokemonTCGLive = new ProjectObject();
+pokemonTCGLive.projectTitle = "Pokémon TCG Live_Season 6 Trailer";
+pokemonTCGLive.projectText = "Editor";
+pokemonTCGLive.imgSrc = "images/pokemonTCGLive.jpg";
+pokemonTCGLive.projectTags = [
+	"gaming",
+	"Pokemon",
+	"favorites",
+];
+pokemonTCGLive.projectVideos = [
+	"953323612",
+];
+pokemonTCGLive.award = [];
+projects.push(pokemonTCGLive);
 
 
 let tags = {

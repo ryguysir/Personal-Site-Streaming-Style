@@ -12,7 +12,6 @@
   font-weight:600;
   letter-spacing:.1em;
 	margin-right:40px;
-  
   cursor: pointer;
   user-select: none;
 }
@@ -21,7 +20,8 @@
 
 @media (max-width:500px){
   .project-card-header{
-    min-width:150px;
+    min-width:75px;
+    font-size:75%;
     height:210px;
   }
 }

@@ -60,6 +60,9 @@
 .project-tile-arrow{
   position:absolute;
   color:white;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
   animation: slideArrow 2s ease-in-out infinite;
   font-size:3em;
   z-index:100;
@@ -77,7 +80,7 @@
     opacity:.5;
   }
   100%{
-    transform:translate(50vw,0px);
+    transform:translate(20vw,0px);
     opacity:0;
   }
 }
@@ -87,9 +90,6 @@
 
 @media (max-width:500px){
   .project-tile-row::after{
-    height:210px;
-  }
-  .project-tile-arrow-container{
     height:210px;
   }
 	.project-tile-row-cover::after{
