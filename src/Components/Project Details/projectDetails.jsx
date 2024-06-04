@@ -11,6 +11,7 @@ import 'swiper/css/scrollbar'
 import 'swiper/css/autoplay'
 
 import ProjectVideo from "../Project Video/projectVideo"
+import ProjectAward from "../Project Award/projectAward";
 
 const ProjectDetails = ({ selectedProject, showDetails, setShowDetails }) => {
 
@@ -35,6 +36,7 @@ const ProjectDetails = ({ selectedProject, showDetails, setShowDetails }) => {
           {selectedProject.projectTitle}
           <div className="horizontal-line"></div>
           {selectedProject.projectText}
+
         </div>
         <div className="project-detail-swiper">
           <Swiper
@@ -57,7 +59,14 @@ const ProjectDetails = ({ selectedProject, showDetails, setShowDetails }) => {
               )
             })}
           </Swiper>
+
         </div>
+        <div className="award-holder">
+          {selectedProject.award.map((item) => (
+            <ProjectAward key={Math.random()} award={item} />
+          ))}
+        </div>
+
       </animated.div> : "")}
 
     </div>

@@ -4,7 +4,8 @@
   top:0;
   width:100vw;
   height:100vh;
-  background:rgb(20,20,30);
+  background: rgb(20, 20, 30);
+  background: radial-gradient(circle, rgb(51, 51, 72) 0%, rgb(20, 20, 30) 100%);
   z-index:101;
   color:white;
 }
@@ -45,6 +46,16 @@ iframe{
   transform:translateX(12.5%);
   width:80vw;
 }
+
+.award-holder{
+  position:absolute;
+  left:0vw;
+  top:0vh;
+  width:100vw;
+}
+
+
+
 
 .horizontal-line {
   position:relative;

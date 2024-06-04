@@ -40,7 +40,7 @@
 	content:"";
 	left:310px;
 	transform:translateX(var(--coverLeftAdjust));
-	width:50%;
+	width:100%;
 	height:300px;
 	opacity: var(--coverOpacity);
 	z-index:99;
@@ -67,8 +67,8 @@
   font-size:3em;
   z-index:100;
   user-select:none;
-  padding-top:125px;
-  padding-left:20vw;
+  padding-top:230px;
+  padding-left:1vw;
 }
 
 @keyframes slideArrow{
@@ -80,7 +80,7 @@
     opacity:.5;
   }
   100%{
-    transform:translate(20vw,0px);
+    transform:translate(50vw,0px);
     opacity:0;
   }
 }

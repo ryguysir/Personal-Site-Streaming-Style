@@ -4,7 +4,8 @@ body{
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
   background: rgb(20, 20, 30);
-  overflow:scroll;
+  overflow-y:scroll;
+  overflow-x:hidden;
 }
 main {
   text-align: center;
@@ -45,7 +46,8 @@ main {
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 16px;
+  width: 6px;
+  height: 6px;
 }
 
 *::-webkit-scrollbar-track {
@@ -54,7 +56,7 @@ main {
 
 *::-webkit-scrollbar-thumb {
   background-color: #616161;
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 
