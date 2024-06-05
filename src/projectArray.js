@@ -447,6 +447,20 @@ projects.push(microsoftSmartSpaces);
 
 //___________________________________________________________________________________
 
+let microsoftBusinessCentral = new ProjectObject();
+microsoftBusinessCentral.projectTitle = "Microsoft Business Central";
+microsoftBusinessCentral.projectText = "Editor";
+microsoftBusinessCentral.imgSrc = "images/microsoftBusinessCentral.jpg";
+microsoftBusinessCentral.projectTags = [
+	"corporate",
+	"Microsoft Business Central",
+];
+microsoftBusinessCentral.projectVideos = ["954069967"];
+projects.push(microsoftBusinessCentral);
+
+
+//___________________________________________________________________________________
+
 let xboxAdaptiveController = new ProjectObject();
 xboxAdaptiveController.projectTitle = "Xbox Adaptive Controller";
 xboxAdaptiveController.projectText = "Editor / Motion Graphics";
