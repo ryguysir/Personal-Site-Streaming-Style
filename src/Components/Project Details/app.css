@@ -49,9 +49,10 @@ iframe{
 
 .award-holder{
   position:absolute;
-  left:0vw;
-  top:0vh;
   width:100vw;
+  padding:0;
+  margin:0;
+  background:red;
 }
 
 

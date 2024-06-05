@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Navigation, Pagination, Autoplay } from "swiper"
 
@@ -48,6 +48,9 @@ export default function App() {
     setShowDetails(true);
     setSelectedProject(proj);
   }
+
+
+
 
   return (<div>
 
