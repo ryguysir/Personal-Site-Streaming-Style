@@ -1,0 +1,9 @@
+.image-block{
+	position:relative;
+	overflow:hidden;
+	margin:0 100px 50px 100px;
+}
+
+.image-block img{
+	width:100%;
+}

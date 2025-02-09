@@ -1,18 +1,17 @@
-*{
+* {
   scrollbar-width: 2em;
 }
-body{
-  padding:0;
+body {
+  padding: 0;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
   background: rgb(20, 20, 30);
-  overflow-y:scroll;
-  overflow-x:hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
   touch-action: none;
 }
 main {
-  text-align: center;
   vertical-align: center;
   line-height: 100vh;
 }
@@ -21,26 +20,25 @@ main {
   overflow: hidden;
 }
 
-.container{
-  width:85%;
-  position:relative;
-  margin:0 auto;
-  overflow:hidden;
+.container {
+  width: 85%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
 }
-  
-.bottom-spacer{
-  height:25vh;
-  width:100%;
+
+.bottom-spacer {
+  height: 25vh;
+  width: 100%;
 }
 
 /* Global settings */
-.visible{
-  display:block;
+.visible {
+  display: block;
 }
 .hidden {
   display: none;
 }
-
 
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
@@ -51,22 +49,21 @@ main {
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 6px;
+  width: 10px;
   height: 6px;
 }
 
 *::-webkit-scrollbar-track {
-  background: rgba(0,0,0,0);
+  background: rgba(0, 0, 0, 0);
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: rgba(0,0,0,0);
-  border-radius: 2px;
+  background-color: rgba(150, 150, 150, 1);
+  border-radius: 4px;
 }
 
-
-@media (max-width:850px){
- .container{
-   width:100%;
- } 
+@media (max-width: 850px) {
+  .container {
+    width: 95%;
+  }
 }
