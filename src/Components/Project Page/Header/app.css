@@ -1,0 +1,32 @@
+.header-container {
+  position: relative;
+  margin: 0 auto;
+  width: 85%;
+  height: 10vh;
+  color: white;
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+}
+.header-container h2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+.about-me-page-bttn {
+  transition: background 0.25s ease-in-out;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(67, 67, 101);
+  background: transparent;
+  color: white;
+  font-size: 100%;
+  cursor: pointer;
+  animation: projectPageBttnAnimation 2s ease-in-out infinite;
+}
+@media (max-width: 850px) {
+  .header-container {
+    width: 100%;
+  }
+}
