@@ -118,7 +118,7 @@ dellTechnologiesWorld.projectTitle = "Dell Technologies World";
 dellTechnologiesWorld.projectText = "Editor / Motion Graphics";
 dellTechnologiesWorld.imgSrc = "images/dellTechnologiesWorld.jpg";
 dellTechnologiesWorld.projectTags = [
-	"corporate",
+	"sizzle",
 	"Dell Technologies World",
 ];
 dellTechnologiesWorld.projectVideos = ["363467805", "363467702"];
@@ -343,7 +343,7 @@ microsoftAIBDM.projectTitle = "Microsoft AI BDM";
 microsoftAIBDM.projectText = "Editor / Motion Graphics";
 microsoftAIBDM.imgSrc = "images/microsoftAI-BDM.jpg";
 microsoftAIBDM.projectTags = [
-	"corporate",
+	"sizzle",
 	"Microsoft AI BDM",
 ];
 microsoftAIBDM.projectVideos = ["363462269"];
@@ -370,7 +370,7 @@ microsoftAILoblaw.projectText = "Editor / Motion Graphics";
 microsoftAILoblaw.imgSrc = "images/microsoftAI-Loblaw.jpg";
 microsoftAILoblaw.projectTags = [
 	"microsoft",
-	"corporate",
+	"case study",
 	"Microsoft AI Loblaw",
 ];
 microsoftAILoblaw.projectVideos = ["363463375"];
@@ -384,7 +384,7 @@ microsoftProjectHanover.projectText = "Editor / Motion Graphics";
 microsoftProjectHanover.imgSrc = "images/microsoftAIProjectHanover.jpg";
 microsoftProjectHanover.projectTags = [
 	"microsoft",
-	"corporate",
+	"case study",
 	"Microsoft Project Hanover",
 ];
 microsoftProjectHanover.projectVideos = ["363461298"];
@@ -399,6 +399,7 @@ microsoftAzureAD20Years.imgSrc = "images/microsoftAzureAD20Years.jpg";
 microsoftAzureAD20Years.projectTags = [
 	"corporate",
 	"historical",
+	"favorites",
 	"Microsoft Azure AD 20 Years",
 ];
 microsoftAzureAD20Years.projectVideos = ["518814623"];
@@ -426,7 +427,7 @@ microsoftGOSHTeamUp.projectTitle = "Microsoft GOSH Team Up";
 microsoftGOSHTeamUp.projectText = "Editor";
 microsoftGOSHTeamUp.imgSrc = "images/microsoftGOSHTeamUp.jpg";
 microsoftGOSHTeamUp.projectTags = [
-	"corporate",
+	"case study",
 	"Microsoft GOSH Team Up",
 ];
 microsoftGOSHTeamUp.projectVideos = ["475253473"];
@@ -439,7 +440,8 @@ microsoftSmartSpaces.projectTitle = "Microsoft Smart Spaces";
 microsoftSmartSpaces.projectText = "Editor / Motion Graphics";
 microsoftSmartSpaces.imgSrc = "images/microsoftSmartSpaces.jpg";
 microsoftSmartSpaces.projectTags = [
-	"corporate",
+	"sizzle",
+	"favorites",
 	"Microsoft Smart Spaces",
 ];
 microsoftSmartSpaces.projectVideos = ["518814848"];
@@ -466,7 +468,7 @@ xboxAdaptiveController.projectTitle = "Xbox Adaptive Controller";
 xboxAdaptiveController.projectText = "Editor / Motion Graphics";
 xboxAdaptiveController.imgSrc = "images/microsoftXboxAdaptiveController.jpg";
 xboxAdaptiveController.projectTags = [
-	"corporate",
+	"sizzle",
 	"Xbox Adaptive Controller",
 ];
 xboxAdaptiveController.projectVideos = ["363466498"];
@@ -543,6 +545,7 @@ narcosS2.projectTags = [
 	"trailers",
 	"tv",
 	"awards",
+	"favorites",
 ];
 narcosS2.projectVideos = ["208770645", "208770547", "208770473"];
 narcosS2.award = ["golden"];
@@ -734,7 +737,7 @@ sapSizzle.projectTitle = "SAP Sizzle";
 sapSizzle.projectText = "Editor / Motion Graphics";
 sapSizzle.imgSrc = "images/sapSizzle.jpg";
 sapSizzle.projectTags = [
-	"corporate",
+	"sizzle",
 	"SAP Sizzle",
 	"indigo slate",
 ];
@@ -975,7 +978,7 @@ valveTheInternational.projectTitle = "Valve The International 2019";
 valveTheInternational.projectText = "Editor / Motion Graphics";
 valveTheInternational.imgSrc = "images/valveTheInternational.jpg";
 valveTheInternational.projectTags = [
-	"corporate",
+	"case study",
 	"Valve The International 2019",
 ];
 valveTheInternational.projectVideos = ["363464976", "363465012", "363465063"];
@@ -1012,9 +1015,10 @@ woodinvilleWhiskey.projectTitle = "Woodinville Whiskey Series";
 woodinvilleWhiskey.projectText = "Editor / Motion Graphics";
 woodinvilleWhiskey.imgSrc = "images/Woodinville Whiskey.jpg";
 woodinvilleWhiskey.projectTags = [
-	"corporate",
+	"case study",
 	"Woodinville Whiskey",
 	"awards",
+	"favorites",
 ];
 woodinvilleWhiskey.projectVideos = [
 	"834208612",
@@ -1123,9 +1127,10 @@ microsoftGameChangers.projectTitle = "Microsoft Game Changers";
 microsoftGameChangers.projectText = "Editor / Motion Graphics";
 microsoftGameChangers.imgSrc = "images/Microsoft Game Changers.jpg";
 microsoftGameChangers.projectTags = [
-	"corporate",
+	"sizzle",
 	"tv",
 	"Microsoft Game Changers",
+	"favorites",
 ];
 microsoftGameChangers.projectVideos = [
 	"834210474",
@@ -1141,7 +1146,7 @@ alexaShopping.projectTitle = "Amazon Alexa Shopping Design";
 alexaShopping.projectText = "Editor";
 alexaShopping.imgSrc = "images/amazonAlexaDesignShopping.jpg";
 alexaShopping.projectTags = [
-	"corporate",
+	"case study",
 	"online",
 	"Amazon Alexa Shopping Design",
 ];
@@ -1159,11 +1164,10 @@ bumbershoot23.projectTitle = "Bumbershoot 2023";
 bumbershoot23.projectText = "Editor / Motion Graphics";
 bumbershoot23.imgSrc = "images/bumbershoot23.jpg";
 bumbershoot23.projectTags = [
-	"corporate",
+	"sizzle",
 	"music",
 	"tv",
 	"Bumbershoot",
-	"favorites",
 ];
 bumbershoot23.projectVideos = [
 	"871934514",
@@ -1201,6 +1205,7 @@ signalAnthem.imgSrc = "images/Signal_Anthem.jpg";
 signalAnthem.projectTags = [
 	"corporate",
 	"Signal",
+	"favorites",
 ];
 signalAnthem.projectVideos = [
 	"890901848",
@@ -1226,7 +1231,6 @@ sunoLaunchSpot.imgSrc = "images/sunoLaunchSpot.jpg";
 sunoLaunchSpot.projectTags = [
 	"corporate",
 	"Suno",
-	"favorites",
 ];
 sunoLaunchSpot.projectVideos = [
 	"953019792",
@@ -1241,9 +1245,8 @@ microsoftYesWay.projectTitle = "Microsoft Yes Way";
 microsoftYesWay.projectText = "Editor / Motion Graphics";
 microsoftYesWay.imgSrc = "images/microsoftYesWay.jpg";
 microsoftYesWay.projectTags = [
-	"corporate",
+	"sizzle",
 	"Microsoft",
-	"favorites",
 ];
 microsoftYesWay.projectVideos = [
 	"953016867",
@@ -1261,7 +1264,6 @@ officialXboxPodcast.projectTags = [
 	"corporate",
 	"gaming",
 	"Xbox",
-	"favorites",
 ];
 officialXboxPodcast.projectVideos = [
 	"953022941",
@@ -1298,7 +1300,6 @@ sentinelOnePurpleAI.projectTags = [
 	"corporate",
 	"voice over",
 	"SentinelOne",
-	"favorites",
 ];
 sentinelOnePurpleAI.projectVideos = [
 	"954048620",
@@ -1325,9 +1326,250 @@ xDefiant.award = [];
 projects.push(xDefiant);
 
 
+//___________________________________________________________________________________
+
+let pimcoCaseStudy = new ProjectObject();
+pimcoCaseStudy.projectTitle = "Microsoft PIMCO Case Study";
+pimcoCaseStudy.projectText = "Editor";
+pimcoCaseStudy.imgSrc = "images/microsoftPIMCOCaseStudy.jpg";
+pimcoCaseStudy.projectTags = [
+	"case study",
+	"microsoft",
+	"PIMCO",
+];
+pimcoCaseStudy.projectVideos = [
+	"1055277060",
+];
+pimcoCaseStudy.award = [];
+projects.push(pimcoCaseStudy);
+
+
+//___________________________________________________________________________________
+
+let MCAPSStart2022Sizzle = new ProjectObject();
+MCAPSStart2022Sizzle.projectTitle = "MCAPS Start 2022 Opening Keynote";
+MCAPSStart2022Sizzle.projectText = "Editor / Motion Graphics";
+MCAPSStart2022Sizzle.imgSrc = "images/MCAPSStart2022Sizzle.jpg";
+MCAPSStart2022Sizzle.projectTags = [
+	"sizzle",
+	"microsoft",
+	"MCAPS Start",
+];
+MCAPSStart2022Sizzle.projectVideos = [
+	"1107881480",
+];
+MCAPSStart2022Sizzle.award = [];
+projects.push(MCAPSStart2022Sizzle);
+
+//___________________________________________________________________________________
+
+let MSEventsSizzle = new ProjectObject();
+MSEventsSizzle.projectTitle = "MS Events Sizzle";
+MSEventsSizzle.projectText = "Editor / Motion Graphics";
+MSEventsSizzle.imgSrc = "images/MSEventsSizzle.jpg";
+MSEventsSizzle.projectTags = [
+	"sizzle",
+	"microsoft",
+	"MS Events Sizzle",
+];
+MSEventsSizzle.projectVideos = [
+	"1107882945",
+];
+MSEventsSizzle.award = [];
+projects.push(MSEventsSizzle);
+
+//___________________________________________________________________________________
+
+let MSIgnite2024Sizzle = new ProjectObject();
+MSIgnite2024Sizzle.projectTitle = "2024 MS Ignite Customer Sizzle";
+MSIgnite2024Sizzle.projectText = "Editor / Motion Graphics";
+MSIgnite2024Sizzle.imgSrc = "images/MSIgnite2024Sizzle.jpg";
+MSIgnite2024Sizzle.projectTags = [
+	"sizzle",
+	"microsoft",
+	"Ignite 24",
+];
+MSIgnite2024Sizzle.projectVideos = [
+	"1107883097",
+];
+MSIgnite2024Sizzle.award = [];
+projects.push(MSIgnite2024Sizzle);
+
+
+//___________________________________________________________________________________
+
+let zetaTVCampaign = new ProjectObject();
+zetaTVCampaign.projectTitle = "ZETA TV Campaign";
+zetaTVCampaign.projectText = "Editor / Motion Graphics";
+zetaTVCampaign.imgSrc = "images/zetaTVCampaign.jpg";
+zetaTVCampaign.projectTags = [
+	"corporate",
+	"ZETA",
+	"TV Campaign",
+	"favorites",
+];
+zetaTVCampaign.projectVideos = [
+	"1107881782",
+	"1107882485",
+	"1107881533",
+	"1107882229",
+];
+zetaTVCampaign.award = [];
+projects.push(zetaTVCampaign);
+
+
+//___________________________________________________________________________________
+
+let MCAPSStart2024Sizzle = new ProjectObject();
+MCAPSStart2024Sizzle.projectTitle = "MCAPS Start 2024 Opening Keynote";
+MCAPSStart2024Sizzle.projectText = "Editor / Motion Graphics";
+MCAPSStart2024Sizzle.imgSrc = "images/MCAPSStart2024Sizzle.jpg";
+MCAPSStart2024Sizzle.projectTags = [
+	"sizzle",
+	"microsoft",
+	"MCAPS Start",
+];
+MCAPSStart2024Sizzle.projectVideos = [
+	"1107949909",
+];
+MCAPSStart2024Sizzle.award = [];
+projects.push(MCAPSStart2024Sizzle);
+
+
+//___________________________________________________________________________________
+
+let CISOEventSizzle = new ProjectObject();
+CISOEventSizzle.projectTitle = "CISO Event Sizzle Video";
+CISOEventSizzle.projectText = "Editor / Motion Graphics";
+CISOEventSizzle.imgSrc = "images/CISOEventSizzle.jpg";
+CISOEventSizzle.projectTags = [
+	"sizzle",
+	"microsoft",
+	"CISO Event",
+];
+CISOEventSizzle.projectVideos = [
+	"1107914826",
+];
+CISOEventSizzle.award = [];
+projects.push(CISOEventSizzle);
+
+
+
+//___________________________________________________________________________________
+
+let MSBuild2025Highlights = new ProjectObject();
+MSBuild2025Highlights.projectTitle = "MS BUILD 25 Highlight Video";
+MSBuild2025Highlights.projectText = "Editor / Motion Graphics";
+MSBuild2025Highlights.imgSrc = "images/MSBuild2025Highlights.jpg";
+MSBuild2025Highlights.projectTags = [
+	"sizzle",
+	"microsoft",
+	"Build 2025",
+];
+MSBuild2025Highlights.projectVideos = [
+	"1107948642",
+];
+MSBuild2025Highlights.award = [];
+projects.push(MSBuild2025Highlights);
+
+
+//___________________________________________________________________________________
+
+let MCAPSStart2025Sizzle = new ProjectObject();
+MCAPSStart2025Sizzle.projectTitle = "MCAPS Start 25 Keynote Video";
+MCAPSStart2025Sizzle.projectText = "Editor / Motion Graphics";
+MCAPSStart2025Sizzle.imgSrc = "images/MCAPSStart2025Sizzle.jpg";
+MCAPSStart2025Sizzle.projectTags = [
+	"sizzle",
+	"MCAPS Start 2025",
+	"microsoft",
+	"favorites",
+];
+MCAPSStart2025Sizzle.projectVideos = [
+	"1107949483",
+];
+MCAPSStart2024Sizzle.award = [];
+projects.push(MCAPSStart2025Sizzle);
+
+//___________________________________________________________________________________
+
+let MS50YearsOfPartnershipSizzle = new ProjectObject();
+MS50YearsOfPartnershipSizzle.projectTitle = "MS 50 Years of Partnership Sizzle";
+MS50YearsOfPartnershipSizzle.projectText = "Editor / Motion Graphics";
+MS50YearsOfPartnershipSizzle.imgSrc = "images/MS50YearsOfPartnershipSizzle.jpg";
+MS50YearsOfPartnershipSizzle.projectTags = [
+	"sizzle",
+	"50 Years of Partnership",
+	"microsoft",
+];
+MS50YearsOfPartnershipSizzle.projectVideos = [
+	"1107945826",
+];
+MS50YearsOfPartnershipSizzle.award = [];
+projects.push(MS50YearsOfPartnershipSizzle);
+
+
+//___________________________________________________________________________________
+
+let AIOnTheGoSeries = new ProjectObject();
+AIOnTheGoSeries.projectTitle = "AI On The Go Series";
+AIOnTheGoSeries.projectText = "Editor / Motion Graphics";
+AIOnTheGoSeries.imgSrc = "images/AIOnTheGoSeries.jpg";
+AIOnTheGoSeries.projectTags = [
+	"series",
+	"corporate",
+	"AI On The Go",
+	"microsoft",
+];
+AIOnTheGoSeries.projectVideos = [
+	"1107925003",
+	"1107935028",
+	"1107944373"
+];
+AIOnTheGoSeries.award = [];
+projects.push(AIOnTheGoSeries);
+
+
+//___________________________________________________________________________________
+
+let AIOnTheGoComedySeries = new ProjectObject();
+AIOnTheGoComedySeries.projectTitle = "AI On The Go Comedy Series";
+AIOnTheGoComedySeries.projectText = "Editor / Motion Graphics";
+AIOnTheGoComedySeries.imgSrc = "images/AIOnTheGoComedySeries.jpg";
+AIOnTheGoComedySeries.projectTags = [
+	"series",
+	"comedy",
+	"corporate",
+	"AI On The Go Comedy",
+	"microsoft",
+];
+AIOnTheGoComedySeries.projectVideos = [
+	"1107923690",
+];
+AIOnTheGoComedySeries.award = [];
+projects.push(AIOnTheGoComedySeries);
+
+//___________________________________________________________________________________
+
+let keithMercierSessionVideo = new ProjectObject();
+keithMercierSessionVideo.projectTitle = "MS Keith Mercier Session Video";
+keithMercierSessionVideo.projectText = "Editor / Motion Graphics";
+keithMercierSessionVideo.imgSrc = "images/keithMercierSessionVideo.jpg";
+keithMercierSessionVideo.projectTags = [
+	"sizzle",
+	"Keith Mercier Session Video",
+	"microsoft",
+];
+keithMercierSessionVideo.projectVideos = [
+	"1107945724",
+];
+keithMercierSessionVideo.award = [];
+projects.push(keithMercierSessionVideo);
+
+
 
 let tags = {
-	favorites: [], corporate: [], trailers: [], "voice over": [], awards: [],
+	favorites: [], sizzle: [], "case study": [],corporate:[], trailers: [], awards: [],
 }
 
 
