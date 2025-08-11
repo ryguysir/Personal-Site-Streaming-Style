@@ -1566,6 +1566,23 @@ keithMercierSessionVideo.projectVideos = [
 keithMercierSessionVideo.award = [];
 projects.push(keithMercierSessionVideo);
 
+//___________________________________________________________________________________
+
+let googleGeminiMusicVideo = new ProjectObject();
+googleGeminiMusicVideo.projectTitle = "Google Gemini Music Video";
+googleGeminiMusicVideo.projectText = "Editor / Motion Graphics";
+googleGeminiMusicVideo.imgSrc = "images/googleGeminiMusicVideo.jpg";
+googleGeminiMusicVideo.projectTags = [
+	"corporate",
+	"favorites",
+	"Google Gemini Music Video",
+	"google",
+];
+googleGeminiMusicVideo.projectVideos = [
+	"1109091992",
+];
+googleGeminiMusicVideo.award = [];
+projects.push(googleGeminiMusicVideo);
 
 
 let tags = {
